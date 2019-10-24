@@ -26,6 +26,6 @@ Non-root containers also have some disadvantages when used for local development
 
 If you wish to run a non-root container image as a root container image, you can do so by adding the line `user: root` right after the `image:` directive in the container’s docker-compose.yml. After making this change, simply restart the container and it will run as the root user with all privileges instead of an unprivileged user.
 
-## This repository
+## This Repository
 
 This repository contains of some Dockerfile that are non-root containers from the original Docker images.
