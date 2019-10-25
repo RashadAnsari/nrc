@@ -2,8 +2,6 @@ ARG VERSION=7.0.1
 
 FROM elastic/filebeat:${VERSION}
 
-LABEL maintainer="Rashad Ansari <rashad.ansari1996@gmail.com>"
-
 USER root
 
 RUN \
